@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+        <button type="button">Nova imagem</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagm</h2>
+        <input type="url" id="end-img" required placeholder="URL da imagem">
+        <button type="submit" >Adicionar</button>
+        <button id="btn-cancelar" type="reset">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="c1.jpg" alt="carro">
+            <div class="overlay-img-link">
+                <a href="c1.jpg" title="Ver imagem no tamanho real" target="_blank" >Ver imagem no tamanho real</a>
+            </div >
+        </li>
+        <li>
+            <img src="c2.jpg" alt="carro">
+            <div class="overlay-img-link">
+                <a href="c2.jpg" title="Ver imagem no tamanho real" target="_blank" >Ver imagem no tamanho real</a>
+            </div >
+        </li>
+        <li>
+            <img src="c3.jpg" alt="carro">
+            <div class="overlay-img-link">
+                <a href="c3.jpg" title="Ver imagem no tamanho real" target="_blank" >Ver imagem no tamanho real</a>
+            </div >
+        </li>
+        <li>
+            <img src="c4.jpg" alt="carro">
+            <div class="overlay-img-link">
+                <a href="c4.jpg" title="Ver imagem no tamanho real" target="_blank" >Ver imagem no tamanho real</a>
+            </div >
+        </li>
+    </ul>  
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="main.js"></script>
+</html>
